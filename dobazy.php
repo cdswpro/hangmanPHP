@@ -20,6 +20,3 @@ while(! feof($plik))
   }
 
 fclose($plik);
-
-
-?>

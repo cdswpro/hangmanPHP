@@ -1,230 +1,210 @@
-.dane{
-    height: auto;
-    width: auto;
-    border: 2px solid dodgerblue;
-    text-align: center;
-    padding: 5px;
+.dane {
+  height: auto;
+  width: auto;
+  border: 2px solid dodgerblue;
+  text-align: center;
+  padding: 5px;
 }
-.error{
-    color:red;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.error {
+  color: red;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.ranking{
-    position: absolute;
-    margin: auto;
-    float: left;
-    transition: 1s;
-    width: 25%;
-    left: -100%;
-    top: 60%;
-    text-align: left;
-    padding-top: 20px;
-    background-color: #000;
-    
-}
-#showimg{
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    top: 60%;
-}
-.options{
+.ranking {
   position: absolute;
-    margin: auto;
-    float: left;
-    transition: 1s;
-    width: 25%;
-    left: -100%;
-    min-height: 100px;
-    text-align: left;
-    padding-top: 20px;
-    background-color: #000;
-    
+  margin: auto;
+  float: left;
+  transition: 1s;
+  width: 25%;
+  left: -100%;
+  top: 60%;
+  text-align: left;
+  padding-top: 20px;
+  background-color: #000;
+}
+#showimg {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 60%;
+}
+.options {
+  position: absolute;
+  margin: auto;
+  float: left;
+  transition: 1s;
+  width: 25%;
+  left: -100%;
+  min-height: 100px;
+  text-align: left;
+  padding-top: 20px;
+  background-color: #000;
 }
 
-#show-opt{
-     width: 90px;
-    height: 90px;
-    position: absolute;
-    top: 0px;
-    cursor: pointer;
+#show-opt {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 0px;
+  cursor: pointer;
 }
 
-#hide-opt{
-     width: 90px;
-    height: 90px;
-    position: absolute;
-    top: 0px;
-    left:75%;
-    cursor: pointer;
+#hide-opt {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 0px;
+  left: 75%;
+  cursor: pointer;
 }
 
-.showed-opt{
-    left: 0px;
-    transition: 0.5s;
+.showed-opt {
+  left: 0px;
+  transition: 0.5s;
 }
 
-body{
-     
-    background-color: #000;
-    color: dodgerblue;
-    font-size: 28px;
-    font-family: 'Cousine', monospace;
-    font-weight: 700;  
-    margin: auto;
+body {
+  background-color: #000;
+  color: dodgerblue;
+  font-size: 28px;
+  font-family: "Cousine", monospace;
+  font-weight: 700;
+  margin: auto;
 }
 
-.showed{
-    left: 0px;
-    transition: 0.5s;
+.showed {
+  left: 0px;
+  transition: 0.5s;
 }
 
-#hideimg{
-    position: absolute;
-    top: 0px;
-    width: 90px;
-    height: 90px;
+#hideimg {
+  position: absolute;
+  top: 0px;
+  width: 90px;
+  height: 90px;
 }
 
-#show-rank{
-    color: dodgerblue;
-    font-size: 90px;
-    float: left;
-    margin: auto;
-    width: 10%;
-    cursor: pointer;
+#show-rank {
+  color: dodgerblue;
+  font-size: 90px;
+  float: left;
+  margin: auto;
+  width: 10%;
+  cursor: pointer;
 }
 
-#hide-rank{
-    color: dodgerblue;
-    font-size: 90px;
-    position: absolute;
-    top: 0px;
-    left: 75%;
-    cursor: pointer;
+#hide-rank {
+  color: dodgerblue;
+  font-size: 90px;
+  position: absolute;
+  top: 0px;
+  left: 75%;
+  cursor: pointer;
 }
-img[name=del]{
-    
-    width: 50px;
-    height: 50px;
-   float: left;
-    cursor: pointer;
-    
+img[name="del"] {
+  width: 50px;
+  height: 50px;
+  float: left;
+  cursor: pointer;
 }
-img[name=crown]{
-    
-    width: 50px;
-    height: 50px;
-   float: right;
-
-    
+img[name="crown"] {
+  width: 50px;
+  height: 50px;
+  float: right;
 }
 
-
-.pojemnik{
-    
-    
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-   
-    
+.pojemnik {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-input[name=login] {
-    background-image: url(svg/user-solid.svg);
-    background-size: 25px 25px;
-    background-position: left;
-    background-repeat: no-repeat;
-    
-    font-weight: 700;
-    font-family: 'Cousine', monospace;
+input[name="login"] {
+  background-image: url(svg/user-solid.svg);
+  background-size: 25px 25px;
+  background-position: left;
+  background-repeat: no-repeat;
+
+  font-weight: 700;
+  font-family: "Cousine", monospace;
   width: 20%;
   padding: 10px 10px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid dodgerblue;
   border-radius: 4px;
-    font-size: 20px;
-    text-align: center;
-      transition: 0.5s;  
-
+  font-size: 20px;
+  text-align: center;
+  transition: 0.5s;
 }
 
-input[name=email] {
-    background-image: url(svg/envelope-solid.svg);
-    background-size: 25px 25px;
-    background-position: left;
-    background-repeat: no-repeat;
-    
-    
-    font-weight: 700;
-    font-family: 'Cousine', monospace;
+input[name="email"] {
+  background-image: url(svg/envelope-solid.svg);
+  background-size: 25px 25px;
+  background-position: left;
+  background-repeat: no-repeat;
+
+  font-weight: 700;
+  font-family: "Cousine", monospace;
   width: 20%;
   padding: 10px 10px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid dodgerblue;
   border-radius: 4px;
-    font-size: 20px;
-    text-align: center;
-      transition: 0.5s;  
-
+  font-size: 20px;
+  text-align: center;
+  transition: 0.5s;
 }
 
-input[type=text] {
-    
-    font-weight: 700;
-    font-family: 'Cousine', monospace;
+input[type="text"] {
+  font-weight: 700;
+  font-family: "Cousine", monospace;
   width: 20%;
   padding: 10px 10px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid dodgerblue;
   border-radius: 4px;
-    font-size: 20px;
-    text-align: center;
-      transition: 0.5s;  
-
+  font-size: 20px;
+  text-align: center;
+  transition: 0.5s;
 }
 
-input[type=text]:focus {
-    transition: 0.5s;
-    font-weight: 700;
-    font-family: 'Cousine', monospace;
+input[type="text"]:focus {
+  transition: 0.5s;
+  font-weight: 700;
+  font-family: "Cousine", monospace;
   width: 40%;
   padding: 10px 10px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid dodgerblue;
   border-radius: 4px;
-    font-size: 20px;
-    text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
-input[type=password] {
-    background-image: url(svg/lock-solid.svg);
-    background-size: 25px 25px;
-    background-position: left;
-    background-repeat: no-repeat;
-    text-align: center;
+input[type="password"] {
+  background-image: url(svg/lock-solid.svg);
+  background-size: 25px 25px;
+  background-position: left;
+  background-repeat: no-repeat;
+  text-align: center;
   width: 20%;
   padding: 10px 10px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid dodgerblue;
   border-radius: 4px;
-    font-size: 20px;
-      transition: 0.5s;  
-
+  font-size: 20px;
+  transition: 0.5s;
 }
 
-input[type=password]:focus {
+input[type="password"]:focus {
+  transition: 0.5s;
 
-  transition: 0.5s;  
-  
   text-align: center;
   width: 30%;
   padding: 10px 10px;
@@ -232,193 +212,152 @@ input[type=password]:focus {
   box-sizing: border-box;
   border: 3px solid dodgerblue;
   border-radius: 4px;
-    font-size: 20px;
+  font-size: 20px;
 }
 
-input[type=submit]{
-     text-align: center;
-  
+input[type="submit"] {
+  text-align: center;
+
   padding: 10px 10px;
   margin-bottom: 5px;
   box-sizing: border-box;
   border: 3px solid dodgerblue;
   border-radius: 4px;
-    font-size: 20px;
-    
+  font-size: 20px;
 }
 
-input[type=submit]:hover{
-
+input[type="submit"]:hover {
   text-align: center;
-  
+
   padding: 10px 10px;
   margin-bottom: 5px;
   box-sizing: border-box;
-  border: 3px solid #00F;
+  border: 3px solid #00f;
   border-radius: 4px;
   font-size: 20px;
   background-color: dodgerblue;
   cursor: pointer;
-    
 }
-#zaloguj{
-    width: 20%;
-    
+#zaloguj {
+  width: 20%;
 }
 
-
-
-
-
-
-#plansza{
-    
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 36px;
-    min-height: 60px;
-    border: 3px solid dodgerblue;
-   
+#plansza {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 36px;
+  min-height: 60px;
+  border: 3px solid dodgerblue;
 }
-#kat{
-    
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 36px;    
-    border: 3px solid dodgerblue;
-   
+#kat {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  border: 3px solid dodgerblue;
 }
 
-#szubienica{
-   
-float: left;    
-width: 50%;  
-min-height: 280px;
-text-align: center;
-
+#szubienica {
+  float: left;
+  width: 50%;
+  min-height: 280px;
+  text-align: center;
 }
 
-#alfabet{
-    min-height: 280px;
-    float: left;
-    width: 50%;
-    text-align: center;
-   
+#alfabet {
+  min-height: 280px;
+  float: left;
+  width: 50%;
+  text-align: center;
 }
 
-.litera{
-    
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
-    border: 3px solid dodgerblue;
-    float: left;
-    cursor: pointer;
-    border-radius: 10px;
-    
+.litera {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid dodgerblue;
+  float: left;
+  cursor: pointer;
+  border-radius: 10px;
 }
-.litera:hover{
-    
-    background-color: #222222;
-    color: azure;
-    border: 3px solid azure;
-    
-    
+.litera:hover {
+  background-color: #222222;
+  color: azure;
+  border: 3px solid azure;
 }
-.reset{
-    
-    color: chartreuse;
-    cursor: pointer;
-    font-size: 48px;
-    border: 3px solid chartresuse;
-    border-radius: 10px;
-    
+.reset {
+  color: chartreuse;
+  cursor: pointer;
+  font-size: 48px;
+  border: 3px solid chartresuse;
+  border-radius: 10px;
 }
-.reset:hover
-{
-    
-    color: bisque;
-    
+.reset:hover {
+  color: bisque;
 }
-#stopka{
-    
-    text-align: right;
-    font-size: 16px;
-   
-  
-    padding-top: 50px;
-    
+#stopka {
+  text-align: right;
+  font-size: 16px;
+
+  padding-top: 50px;
 }
-#substopka{
-    
-    float: left;
-   
-    
+#substopka {
+  float: left;
 }
-#substopka2{
-    
-    float: left;
-    padding-left: 30px;
-   
-    
+#substopka2 {
+  float: left;
+  padding-left: 30px;
 }
 
-.guzik{
-     text-align: center;
-  
+.guzik {
+  text-align: center;
+
   padding: 10px 10px;
   margin-bottom: 5px;
   box-sizing: border-box;
   border: 3px solid dodgerblue;
   border-radius: 4px;
-    font-size: 20px;
-    
+  font-size: 20px;
 }
 
-.guzik:hover{
-
+.guzik:hover {
   text-align: center;
-  
+
   padding: 10px 10px;
   margin-bottom: 5px;
   box-sizing: border-box;
-  border: 3px solid #00F;
+  border: 3px solid #00f;
   border-radius: 4px;
   font-size: 20px;
   background-color: dodgerblue;
   cursor: pointer;
-    
 }
 
-
-.info{
-    margin: auto;
-    width: 75%;
-    text-align: center;
+.info {
+  margin: auto;
+  width: 75%;
+  text-align: center;
 }
 
-#file{
-     text-align: center;
-  
+#file {
+  text-align: center;
+
   padding: 10px 10px;
   margin-bottom: 5px;
   box-sizing: border-box;
   border: 3px solid dodgerblue;
   border-radius: 4px;
-    font-size: 20px;
-    
+  font-size: 20px;
 }
 
-
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 800px) {
   /* For tablets: */
   .dane {
     width: 80%;
@@ -427,129 +366,123 @@ text-align: center;
   .kat {
     width: 100%;
   }
-    .plansza {
+  .plansza {
     width: 100%;
   }
-    .szubienica {
+  .szubienica {
     width: 100%;
   }
-    .alfabet {
+  .alfabet {
     width: 100%;
   }
-
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width: 500px) {
   /* For mobile phones: */
-  .dane, .kat, .plansza, .szubienica, .alfabet {
+  .dane,
+  .kat,
+  .plansza,
+  .szubienica,
+  .alfabet {
     width: 100%;
   }
 }
 
+#logowanko:hover {
+  transition: 3s;
+  box-shadow: 0px 0px 50px 50px #000477;
+}
+#logowanko {
+  transition: 3s;
+}
+#time {
+  float: left;
+  margin: auto;
+  color: dodgerblue;
+  font-size: 20px;
+  position: absolute;
+  left: 26%;
+}
+#crown {
+  float: right;
+}
+#kategorie {
+  text-align: center;
+  width: 100%;
 
-#logowanko:hover{
-    transition: 3s;
-    box-shadow: 0px 0px 50px 50px #000477;
-}
-#logowanko{
-    transition: 3s;
-   
-}
-#time
-{
-    float: left;
-    margin: auto;
-    color: dodgerblue;
-    font-size: 20px;
-    position: absolute;
-    left: 26%;
-}
-#crown{
-    float:right;
-}
-#kategorie{
-    text-align: center;
-    width: 100%;
-   
-    border: 2px solid dodgerblue;
+  border: 2px solid dodgerblue;
 }
 
-#hasla{
-   
-    width: 100%;
-    border: 2px solid dodgerblue;
-  
-    
+#hasla {
+  width: 100%;
+  border: 2px solid dodgerblue;
 }
-#admincancel{
-    width: 100%;
-    text-align: center;
-    
+#admincancel {
+  width: 100%;
+  text-align: center;
 }
-.admindane{
-    text-align: center;
-    width: 80%;
-    margin: auto;
+.admindane {
+  text-align: center;
+  width: 80%;
+  margin: auto;
 }
-.tabela{
-    border: 1px solid dodgerblue;
-    margin: auto;
-    
+.tabela {
+  border: 1px solid dodgerblue;
+  margin: auto;
 }
-td{
-    border: 1px solid dodgerblue;
-    margin: 5px;
-    padding: 5px;
+td {
+  border: 1px solid dodgerblue;
+  margin: 5px;
+  padding: 5px;
 }
-th{
-    border: 2px solid dodgerblue;
-    margin: 5px;
-    padding: 5px;
+th {
+  border: 2px solid dodgerblue;
+  margin: 5px;
+  padding: 5px;
 }
 .button {
-    border-radius: 5px;
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px; 
-    cursor: pointer;
+  border-radius: 5px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 .button1 {
-    background-color: #1F1;
-    color: black;
-    border: 2px solid #4CAF50;
-    border-radius: 5px;
+  background-color: #1f1;
+  color: black;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
 }
 
 .button1:hover {
-    transition-duration: 0.5s;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
+  transition-duration: 0.5s;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
 }
 
 .button2 {
-    border-radius: 5px;
-    background-color: #F77;
-    color: black;
-    border: 2px solid #F33;
+  border-radius: 5px;
+  background-color: #f77;
+  color: black;
+  border: 2px solid #f33;
 }
 
 .button2:hover {
-    transition-duration: 0.5s;
-    border-radius: 5px;
-    background-color: #F33;
-    color: white;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+  background-color: #f33;
+  color: white;
 }
-#awatar{
-    width: 60px;
-    height: 60px;
-    
-    float: left;
-}
+#awatar {
+  width: 60px;
+  height: 60px;
 
+  float: left;
+}
